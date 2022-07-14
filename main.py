@@ -13,7 +13,7 @@ class ing:
         self.pen = ""
     def select_file(self):
         self.pen = (fd.askdirectory(title='Choose a file'))
-        print(os.listdir(self.pen))
+        
 
 #ends program without printing
 def end():
